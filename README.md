@@ -10,7 +10,7 @@ This project is a Spring Boot application designed to manage students and subjec
 
 ## Prerequisites
 
-- Java Development Kit (JDK) 8 or higher
+- Java Development Kit (JDK) 19 or higher
 - Maven 3.6.0 or higher
 - Postman for testing APIs (optional)
 
