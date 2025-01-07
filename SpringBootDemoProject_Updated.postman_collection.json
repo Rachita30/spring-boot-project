@@ -1,0 +1,100 @@
+{
+    "info": {
+        "name": "SpringBootDemoProject API Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Create Student",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Rachita\",\n    \"address\": \"Kolhapur\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/students",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "students"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get All Students",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/api/students",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "students"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Create Subject",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Mathematics\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/subjects",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "subjects"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get All Subjects",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/api/subjects",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "subjects"
+                    ]
+                }
+            }
+        }
+    ]
+}
